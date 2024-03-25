@@ -1,0 +1,13 @@
+1)  tsc --init
+2)  npm init -y
+3)  tsconfig.json file changes
+       line 14 "target" = "ES2022"
+       line 28 "module" = "NodeNext"
+       line 30 uncomment change "node10" to "NodeNext"
+4)  package.json file changes
+       add after "main"
+      "type" = "module"
+5)  npm i inquirer
+6)  npm i @types/inquirer -D
+
+now make index.file and start work
